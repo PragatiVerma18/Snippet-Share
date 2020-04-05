@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="main">
+    <h1 class="title">{{snip.title}}</h1>
+    <b><time>{{snip.date}}</time></b>
+    <div class="hlinks">
+        <b>Paste URL:</b> <a href="{{ request.build_absolute_uri }}">"{{ request.build_absolute_uri }}"</a>
+    </div>
+    <pre><code class="language-{{snip.lang}} line-numbers">{{snip.text}}</code></pre>
+
+</div>
+
+{% endblock %}
