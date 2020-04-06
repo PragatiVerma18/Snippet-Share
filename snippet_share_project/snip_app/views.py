@@ -60,5 +60,6 @@ def search(request, link_c):
             return HttpResponseRedirect("/search/"+x) 
         except ValueError:
             pass
-    return render(request, "all.html", {'searchform':form,'snips':snips})
-
+        return render(request, "all.html", {'searchform':form,'snips':snips})
+    else:
+        return render(request, "no_results.html", {'searchform':form,'snips':snips})
