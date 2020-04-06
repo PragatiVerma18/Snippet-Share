@@ -1,17 +1,25 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Upload Files</title>
+{% block content %}
+<style>
+    .sidebar{
+        display: none;
+    }
+</style>
         <link href="{% static 'fileupload/css/dropzone.css' %}" type="text/css" rel="stylesheet"/>
     </head>
     <body>
-        <form class="dropzone" action="{% url 'home' %}" method="post" enctype="multipart/form-data" style="height: 90vh; width: 60vw; margin-top: 50px; margin-left: auto; margin-right: auto; background-image: url('https://cdn.dribbble.com/users/351759/screenshots/7118797/media/d3ceb84a853d4f608e897f70abcfce87.jpg'); background-size: cover; background-position: center;">
+        <form class="dropzone" action="{% url 'home' %}" method="post" enctype="multipart/form-data" style="height: 80vh; width: 40vw; margin-left: auto; margin-right: auto; background-image: url('https://cdn.dribbble.com/users/351759/screenshots/7118797/media/d3ceb84a853d4f608e897f70abcfce87.jpg'); background-size: cover; background-position: center;">
             {% csrf_token %}
             <div class="fallback">
                 <input name="file" type="file"/>
             </div>
+            <!-- <button class="button is-info is-large" style="display: inline; border-radius: 50%;"><i class="fas fa-angle-right" aria-hidden="true" type="submit"></i></button> -->
         </form>
+
+        <!-- <div class="main">
+            <pre data-src="{{name}}"><code class="line-numbers"></code></pre>
+        </div> -->
+
         <script src="{% static 'fileupload/js/dropzone.js' %}"></script>
-    </body>
-</html>
+        {% endblock %}

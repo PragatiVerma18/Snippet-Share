@@ -5,3 +5,5 @@ class Upload(models.Model):
 
     def __unicode__(self):
         return self.file.name
+    def __str__(self):
+        return self.file.name

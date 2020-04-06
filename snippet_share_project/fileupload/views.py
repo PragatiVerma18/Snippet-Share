@@ -12,3 +12,4 @@ class FileCreateView(CreateView):
         data = {'status': 'success'}
         response = JSONResponse(data, mimetype=response_mimetype(self.request))
         return response
+        
