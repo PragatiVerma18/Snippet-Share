@@ -2,15 +2,49 @@
 {% load static %}
 {% block content %}
 {% load crispy_forms_tags %}
+
+<style>
+  form{
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  }
+  
+
+  form input{
+  margin: 15px !important;
+  padding: 10px 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  }
+
+  form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize:vertical;
+  overflow:auto;  
+}
+
+form select {
+  padding: 16px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+</style>
 <article>
   <div class="main">
-    <form method="POST" class="uniForm">
+    <form method="POST" class="uniForm" style="font-weight: 700 !important;">
       {% csrf_token %}
-      <table>{{ form|crispy}}</table>
+      {{ form|crispy}}
 
       <div class="field">
         <div class="control">
-          <button class="button is-info is-rounded" type="submit">Submit</button>
+          <button class="button is-info is-rounded" type="submit" style="margin-top: 20px;">Submit</button>
         </div>
       </div>
     </form>
