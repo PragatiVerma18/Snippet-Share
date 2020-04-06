@@ -263,8 +263,9 @@ div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
 	color: #bbb;
-	font-size: .8em;
-	padding: 0 .5em;
+	/* font-size: .8em; */
+	padding: 0 .7em;
+	margin: 5px !important;
 	background: #f5f2f0;
 	background: rgba(224, 224, 224, 0.2);
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
@@ -277,7 +278,7 @@ div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus,
 div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
-	color: inherit;
+	color: #ffffff !important;
 	text-decoration: none;
 }
 
