@@ -25,3 +25,8 @@ def index(request):
             pass
 
     return render(request, "index.html", {'form':form, 'snips':snips})
+
+def search(request, link_c):
+    snips= Snip.objects.filter(link_code=link_c)
+    return render(request, "all.html", {'snips':snips})
+

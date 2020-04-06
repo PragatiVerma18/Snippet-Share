@@ -264,7 +264,7 @@ div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
 	color: #bbb;
 	font-size: .8em;
-	padding: 0 .7em;
+	padding: 1em !important;
 	margin: 5px !important;
 	background: #f5f2f0;
 	background: rgba(224, 224, 224, 0.2);

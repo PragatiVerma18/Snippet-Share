@@ -32,7 +32,7 @@
 
     <div class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item is-size-5" href="#">
+        <a class="navbar-item is-size-5" href="{% url 'all' %}">
           Home
         </a>
 
@@ -73,23 +73,23 @@
           </div>
         </div>
 
-        <div class="column is-one-quarter">
+        <div class="column is-one-quarter" style="margin-left: 40px ;">
           <article class="panel is-info">
             <p class="panel-heading">
               All Snippets:
             </p>
             <p class="panel-tabs">
-              <a class="is-active">All</a>
+              <a>All</a>
               <a>Public</a>
               <a>Private</a>
             </p>
             <div class="panel-block">
-              <p class="control has-icons-left">
-                <input class="input is-info" type="text" placeholder="Search">
+              <a class="control has-icons-left" id="searchbar">
+                <input class="input is-info" type="text" placeholder="Search" id="search">
                 <span class="icon is-left">
                   <i class="fas fa-search" aria-hidden="true"></i>
                 </span>
-              </p>
+              </a>
             </div>
             {% for i in snips %}
 

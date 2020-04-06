@@ -6,9 +6,9 @@
     <h1 class="title">{{snip.title}}</h1>
     <b><time>{{snip.updated_at}}</time></b>
     <div>
-        <b>Paste URL:</b> <a href="{{ request.build_absolute_uri }}">"{{ request.build_absolute_uri }}"</a>
+        <b>Snippet URL:</b> <a href="{{ request.build_absolute_uri }}">"{{ request.build_absolute_uri }}"</a>
     </div>
-    <pre data-download-link><code class="language-{{snip.lang}} line-numbers">{{snip.text}}</code></pre>
+    <pre><code class="language-{{snip.lang}} line-numbers">{{snip.text}}</code></pre>
 
 </div>
 
