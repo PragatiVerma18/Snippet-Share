@@ -1,4 +1,5 @@
 {% load static %}
+{% load crispy_forms_tags %}
 <!DOCTYPE html>
 <html>
 
@@ -13,6 +14,7 @@
   <link rel="stylesheet" href="{% static 'css/bulma.min.css' %}">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
+
 
 <body>
 
@@ -84,13 +86,26 @@
               <a>Private</a>
             </p>
             <div class="panel-block">
-              <a class="control has-icons-left" id="searchbar">
-                <input class="input is-info" type="text" placeholder="Search" id="search">
-                <span class="icon is-left">
-                  <i class="fas fa-search" aria-hidden="true"></i>
-                </span>
-              </a>
+<style>
+    .searchform input{
+  margin: 10px !important;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  }
+
+  .asteriskField {
+    display: none;
+}
+
+</style>
+              <form method="POST" class="uniForm searchform is-left" style="font-weight: 700 !important;">
+                {% csrf_token %}
+                {{ searchform|crispy }}
+              </form>
+              <button class="button is-info is-small is-rounded is-right" style="margin-top: 22px; margin-left: 20px;">Submit</button>
             </div>
+
             {% for i in snips %}
 
             <a class="panel-block" href="{% url 'index'%}p/{{i.link_code}}">

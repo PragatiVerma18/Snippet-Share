@@ -8,4 +8,9 @@ class snipForm(forms.ModelForm):
         model=Snip
         fields=('text','title','link_code','lang')
         labels={'title':'Snippet Title','text':'New Snippet','link_code':'Secret Code','lang': 'Syntax Highlighting'}
+
+class searchForm(forms.Form):
+    helper = FormHelper()
+    search = forms.CharField(max_length=100, widget= forms.TextInput
+                           (attrs={'class':'is-small input is-info', 'placeholder':'Search Text Here'}))
     

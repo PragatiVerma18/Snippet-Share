@@ -4,21 +4,21 @@
 {% load crispy_forms_tags %}
 
 <style>
-  form{
+  .snipform{
   border-radius: 10px;
   background-color: #f2f2f2;
   padding: 40px;
   }
   
 
-  form input{
+  .snipform input{
   margin: 15px !important;
   padding: 10px 5px;
   border: 2px solid #ccc;
   border-radius: 4px;
   }
 
-  form textarea {
+  .snipform textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
@@ -30,7 +30,7 @@
   overflow:auto;  
 }
 
-form select {
+.snipform select {
   padding: 16px 20px;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -38,7 +38,7 @@ form select {
 </style>
 <article>
   <div class="main">
-    <form method="POST" class="uniForm" style="font-weight: 700 !important;">
+    <form method="POST" class="uniForm snipform" style="font-weight: 700 !important;">
       {% csrf_token %}
       {{ form|crispy}}
 
