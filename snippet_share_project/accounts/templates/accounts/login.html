@@ -1,30 +1,86 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container" style="display: flex;justify-content: center; align-content: center;" >
-<div class="block">
+<style>
+  .sidebar{
+    display: none !important;
+  }
+
+  .main{
+    margin: auto !important;
+  }
+
+  #login {
+  transition: box-shadow .3s;
+  margin: 50px;
+  padding: 50px 40px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  
+}
+#login:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+</style>
 {% if error %}
-<br>
-<h3 style="color: red;">{{error}}</h3>
-<br>
+<div class="notification is-danger" onclick="myFunction()" id="error">
+  <button class="delete"></button>
+<strong>{{error}}</strong>
+</div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("error");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 {% endif %}
 
-<h1 class="pt-5"> Login </h1> 
 
-<form action="{% url 'login' %}" method="POST">
+
+<div class="columns"  id="login">
+  <div class="column is-half" style="margin: auto !important;">
+<form action="{% url 'login' %}" method="POST" >
 {% csrf_token %}
-Username:
-<br>
-<input type="text" name="username"/>
-<br>
-Password:
-<br>
-<input type="password" name="password">
-<br>
-<br>
-<input type="submit" class="btn btn-primary" value="Login">
+<div class="field" style="margin-bottom: 20px;">
+  <p class="control has-icons-left has-icons-right">
+    <input class="input" type="text" placeholder="Username" name="username">
+    <span class="icon is-small is-left">
+      <i class="fas fa-user"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-check"></i>
+    </span>
+  </p>
+</div>
+<div class="field" style="margin-bottom: 20px;">
+  <p class="control has-icons-left">
+    <input class="input" type="password" placeholder="Password" name="password">
+    <span class="icon is-small is-left">
+      <i class="fas fa-lock"></i>
+    </span>
+  </p>
+</div>
+<div class="field">
+  <p class="control">
+    <input class="button is-warning is-rounded" type="submit" value="Login" style="font-weight: 700;">
+  </p>
+</div>
 
 </form>
+
+</div>
+
+<div class="column is-half">
+  <figure class="image">
+    <img src="https://assets-global.website-files.com/5cbfa773633cb30f73421375/5cc09357f91e8bb2498e72ba_product_illustrations%20-%20First%20time%20user%20-%20Dashboard.png">
+  </figure>
 </div>
 </div>
 {% endblock %}
