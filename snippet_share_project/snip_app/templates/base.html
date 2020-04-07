@@ -43,16 +43,25 @@
         </a>
 
       </div>
-
+      
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-info is-rounded">
+            {% if user.is_authenticated %}
+            <a class="button is-warning is-rounded" href="javascript:{document.getElementById('logout').submit()}" style="font-weight: 700;">Logout</a>
+            <form id="logout" method="POST" action="{% url 'logout' %}">
+              {% csrf_token %}
+              <input type="hidden" />
+            </form>
+            {% else %}
+            <a class="button is-info is-rounded" href="{% url 'signup' %}" style="font-weight: 700;">
               <strong>Sign up</strong>
             </a>
-            <a class="button is-light is-rounded">
+            <a class="button is-light is-rounded" href="{% url 'login' %}" style="font-weight: 700;">
               Log in
             </a>
+
+            {% endif %}
           </div>
         </div>
       </div>
@@ -80,11 +89,11 @@
             <p class="panel-heading">
               All Snippets:
             </p>
-            <p class="panel-tabs">
+            <!-- <p class="panel-tabs">
               <a>All</a>
               <a>Public</a>
               <a>Private</a>
-            </p>
+            </p> -->
             <div class="panel-block">
 <style>
     .searchform input{

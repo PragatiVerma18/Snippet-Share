@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from snip_app import urls
+from fileupload import urls
+from accounts import urls
 from django.urls import path
 from django.conf.urls import url, include
 from django.conf.urls.static import static
@@ -24,4 +26,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url('',include('snip_app.urls')),
     url('upload/',include('fileupload.urls')),
+    url('accounts/', include('accounts.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

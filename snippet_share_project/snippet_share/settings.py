@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'snip_app',
     'crispy_forms',
     'fileupload',
+    'accounts',
 ]
 
 CRISPY_TEMPLATE_PACK = 'uni_form'

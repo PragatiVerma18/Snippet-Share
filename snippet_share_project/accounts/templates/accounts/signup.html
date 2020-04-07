@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container" style="display: flex;justify-content: center; align-content: center;" >
+<div class="block">
+{% if error %}
+<br>
+<h3  style="color: red;">{{error}}</h3>
+<br>
+{% endif %}
+
+<h1 class="pt-5"> Sign Up! </h1> 
+
+<form action="{% url 'signup' %}" method="POST">
+{% csrf_token %}
+Username:
+<br>
+<input type="text" name="username"/>
+<br>
+Password:
+<br>
+<input type="password" name="password">
+<br>
+Confirm Password:
+<br>
+<input type="password" name="confirmpassword">
+<br>
+<br>
+<input type="submit" class="btn btn-primary" value="Sign Up!">
+
+</form>
+</div>
+</div>
+{% endblock %}
