@@ -1,0 +1,227 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+  .sidebar{
+    display: none;
+  }
+  .editform{
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  }
+  
+  .main{
+    margin: auto;
+  }
+
+ .editform textarea {
+  width: 100%;
+  height: 50vh;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize:vertical;
+  overflow:auto;  
+}
+
+
+.editform select {
+  padding: 5px 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+</style>
+<article>
+  <div class="main">
+    <form method="POST" style="font-weight: 700 !important;" class="editform">
+      {% csrf_token %}
+  
+        <div class="field">
+          <label class="label">New Snippet</label>
+          <div class="control">
+            <textarea class="textarea" name="text">{{snip.text}}</textarea>
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Snippet Title</label>
+          <div class="control">
+            <input class="input" type="text" value="{{snip.title}}" name="title">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Secret Code</label>
+          <div class="control">
+            <input class="input" type="text" value="{{snip.link_code}}" name="link_code">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Syntax Highlighting</label>
+          <div class="control">
+            <select name="lang" class="select" id="id_lang">
+              <option value="{{snip.lang}}" selected="{{snip.lang}}">{{snip.lang}}</option>
+            
+              <option value="text">None</option>
+              <option value="Markup">markup</option>
+            
+              <option value="html">html</option>
+            
+              <option value="CSS">css</option>
+            
+              <option value="C-like">clike</option>
+            
+              <option value="JavaScript">javascript, js</option>
+            
+              <option value="Arduino">arduino</option>
+            
+              <option value="Bash">bash, shell</option>
+            
+              <option value="BASIC">basic</option>
+            
+              <option value="C">c</option>
+            
+              <option value="C#">csharp, cs, dotnet</option>
+            
+              <option value="C++">cpp</option>
+            
+              <option value="CoffeeScript">coffeescript, coffee</option>
+            
+              <option value="CMake">cmake</option>
+            
+              <option value="Clojure">clojure</option>
+            
+              <option value="Django/Jinja2">django, jinja2</option>
+            
+              <option value="Docker">docker, dockerfile</option>
+            
+              <option value="Git">git</option>
+            
+              <option value="GameMaker Language">gml, gamemakerlanguage</option>
+            
+              <option value="Go">go</option>
+            
+              <option value="GraphQL">graphql</option>
+            
+              <option value="Groovy">groovy</option>
+            
+              <option value="Haml">haml</option>
+            
+              <option value="HTTP">http</option>
+            
+              <option value="Icon">icon</option>
+            
+              <option value="Java">java</option>
+            
+              <option value="JavaDoc">javadoc</option>
+            
+              <option value="JSDoc">jsdoc</option>
+            
+              <option value="JSON">json</option>
+            
+              <option value="JSONP">jsonp</option>
+            
+              <option value="JSON5">json5</option>
+            
+              <option value="Kotlin">kotlin</option>
+            
+              <option value="LaTeX">latex, tex, context</option>
+            
+              <option value="Latte">latte</option>
+            
+              <option value="Less">less</option>
+            
+              <option value="LiveScript">livescript</option>
+            
+              <option value="Lua">lua</option>
+            
+              <option value="Makefile">makefile</option>
+            
+              <option value="Markdown">markdown, md</option>
+            
+              <option value="MATLAB">matlab</option>
+            
+              <option value="nginx">nginx</option>
+            
+              <option value="Objective-C">objectivec</option>
+            
+              <option value="OpenCL">opencl</option>
+            
+              <option value="Parser">parser</option>
+            
+              <option value="Pascal">pascal, objectpascal</option>
+            
+              <option value="Perl">perl</option>
+            
+              <option value="PHP">php</option>
+            
+              <option value="PL/SQL">plsql</option>
+            
+              <option value="PowerShell">powershell</option>
+            
+              <option value="Pug">pug</option>
+            
+              <option value="Python">python, py</option>
+            
+              <option value="R">r</option>
+            
+              <option value="React JSX">jsx</option>
+            
+              <option value="React TSX">tsx</option>
+            
+              <option value="Regex">regex</option>
+            
+              <option value="Ruby">ruby, rb</option>
+            
+              <option value="Rust">rust</option>
+            
+              <option value="SAS">sas</option>
+            
+              <option value="Sass (Sass)">sass</option>
+            
+              <option value="Sass (Scss)">scss</option>
+            
+              <option value="Scala">scala</option>
+            
+              <option value="SQL">sql</option>
+            
+              <option value="Stylus">stylus</option>
+            
+              <option value="Swift">swift</option>
+            
+              <option value="Twig">twig</option>
+            
+              <option value="TypeScript">typescript, ts</option>
+            
+              <option value="Velocity">velocity</option>
+            
+              <option value="vim">vim</option>
+            
+              <option value="Visual Basic">visual-basic, vb</option>
+            
+              <option value="Wiki markup">wiki</option>
+            
+              <option value="YAML">yaml, yml</option>
+            
+              <option value="Zig">zig</option>
+            
+            </select>
+          </div>
+        </div>
+        
+
+      <div class="field">
+        <div class="control">
+          <button class="button is-warning is-rounded" type="submit" style="margin-top: 20px;">Submit</button>
+          <a class="button is-danger is-rounded" style="margin-top: 20px; margin-left: 20px;" href="{% url 'index' %}">Cancel</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</article>
+{% endblock %}

@@ -5,6 +5,8 @@
 <div class="main">
     <h1 class="title">{{snip.title}}</h1>
     <b><time>{{snip.updated_at}}</time></b>
+    <a class="button is-danger is-rounded is-pulled-right" style="margin-left: 20px;" href="{% url 'delete' snip.link_code %}">Delete</a>
+    <a class="button is-warning is-rounded is-pulled-right" style="margin-left: 20px;" href="{% url 'edit' snip.link_code %}">Edit</a>
     <div>
         <b>Snippet URL:</b> <a href="{{ request.build_absolute_uri }}">"{{ request.build_absolute_uri }}"</a>
     </div>

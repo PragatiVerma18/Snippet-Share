@@ -61,3 +61,27 @@ def search(request, link_c):
         except ValueError:
             pass
     return render(request, "all.html", {'searchform':form,'snips':snips})
+
+def edit(request, link_c):
+    snips=Snip.objects.order_by('-updated_at')[:8]
+    snip= Snip.objects.get(link_code = link_c)
+    form=snipForm()
+    if request.method=="POST":
+        try:
+            snip.text = request.POST['text']
+            snip.title = request.POST['title']
+            snip.link_code = request.POST['link_code']
+            snip.lang = request.POST['lang']
+            snip.save()
+            return HttpResponseRedirect("/p/"+snip.link_code) 
+        except ValueError:
+            pass
+    else:
+        return render(request, "edit.html", {'form':form, 'snips':snips, 'snip': snip})
+    return redirect('all')
+
+def delete(request, link_c):
+    snip=Snip.objects.get(link_code = link_c)
+    snip.delete()
+    return redirect('index')
+

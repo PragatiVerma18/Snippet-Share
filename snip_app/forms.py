@@ -12,5 +12,5 @@ class snipForm(forms.ModelForm):
 class searchForm(forms.Form):
     helper = FormHelper()
     search = forms.CharField(max_length=100, widget= forms.TextInput
-                           (attrs={'class':'is-small input is-info', 'placeholder':'Search Text Here'}))
+                           (attrs={'class':'is-small input is-info', 'placeholder':'Search By Secret Code'}))
     

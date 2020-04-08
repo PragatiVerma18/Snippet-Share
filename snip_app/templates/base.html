@@ -13,6 +13,30 @@
   <link href="{% static 'css/prism.css' %}" rel="stylesheet" />
   <link rel="stylesheet" href="{% static 'css/bulma.min.css' %}">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+
+  <!--meta tags-->
+<!-- Primary Meta Tags -->
+<title>Snippet Share </title>
+<meta name="title" content="Snippet Share ">
+<meta name="description" content="A snippet sharing that lets you share code snippets with proper syntax highlighting and upload files.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://snip-share.herokuapp.com/">
+<meta property="og:title" content="Snippet Share ">
+<meta property="og:description" content="A snippet sharing that lets you share code snippets with proper syntax highlighting and upload files.">
+<meta property="og:image" content="https://i.pinimg.com/originals/94/ab/ec/94abecb84b4d35ee2f3b2b8f0c8a1656.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://snip-share.herokuapp.com/">
+<meta property="twitter:title" content="Snippet Share ">
+<meta property="twitter:description" content="A snippet sharing that lets you share code snippets with proper syntax highlighting and upload files.">
+<meta property="twitter:image" content="https://i.pinimg.com/originals/94/ab/ec/94abecb84b4d35ee2f3b2b8f0c8a1656.png">
+  <!--meta tags-->
+
+
 </head>
 
 
@@ -20,7 +44,7 @@
 
   <nav class="navbar is-dark" role="navigation" aria-label="main navigation" style="margin-bottom: 50px !important ;">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">
+      <a class="navbar-item" href="{% url 'index' %}">
         <h1 class="is-size-3"> <strong>SnipBoard</strong></h1>
       </a>
 
