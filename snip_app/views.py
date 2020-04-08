@@ -3,85 +3,96 @@ from .models import Snip
 from .forms import snipForm, searchForm
 
 
-
-def show_snip(request,link_c):
-    snips=Snip.objects.order_by('-updated_at')[:10]
-    snip=Snip.objects.get(link_code=link_c)
-    searchform=searchForm()
-    if request.method=="POST":
+def show_snip(request, link_c):
+    snips = Snip.objects.order_by('-updated_at')[:10]
+    snip = Snip.objects.get(link_code=link_c)
+    searchform = searchForm()
+    if request.method == "POST":
         try:
-            searchform=searchForm(request.POST)
+            searchform = searchForm(request.POST)
             x = request.POST['search']
-            return HttpResponseRedirect("/search/"+x) 
+            return HttpResponseRedirect("/search/" + x)
         except ValueError:
             pass
-    return render(request, "detail.html", {'searchform':searchform,'snip': snip,'snips':snips})
+    return render(
+        request, "detail.html", {
+            'searchform': searchform, 'snip': snip, 'snips': snips})
+
 
 def all(request):
     snips = Snip.objects.all()
-    searchform=searchForm()
-    if request.method=="POST":
+    searchform = searchForm()
+    if request.method == "POST":
         try:
-            searchform=searchForm(request.POST)
+            searchform = searchForm(request.POST)
             x = request.POST['search']
-            return HttpResponseRedirect("/search/"+x) 
+            return HttpResponseRedirect("/search/" + x)
         except ValueError:
             pass
-    return render(request, 'all.html', {'searchform':searchform,'snips': snips})
+    return render(
+        request, 'all.html', {
+            'searchform': searchform, 'snips': snips})
+
 
 def index(request):
-    snips=Snip.objects.order_by('-updated_at')[:8]
-    form=snipForm()
-    if request.method=="POST":
+    snips = Snip.objects.order_by('-updated_at')[:8]
+    form = snipForm()
+    if request.method == "POST":
         try:
-            form=snipForm(request.POST)
+            form = snipForm(request.POST)
             form.save()
-            return HttpResponseRedirect("/") 
+            return HttpResponseRedirect("/")
         except ValueError:
             pass
-    searchform=searchForm()
-    if request.method=="POST":
+    searchform = searchForm()
+    if request.method == "POST":
         try:
-            searchform=searchForm(request.POST)
+            searchform = searchForm(request.POST)
             x = request.POST['search']
-            return HttpResponseRedirect("/search/"+x) 
+            return HttpResponseRedirect("/search/" + x)
         except ValueError:
             pass
 
-    return render(request, "index.html", {'searchform':searchform,'form':form, 'snips':snips})
+    return render(
+        request, "index.html", {
+            'searchform': searchform, 'form': form, 'snips': snips})
+
 
 def search(request, link_c):
-    snips= Snip.objects.filter(link_code=link_c)
-    form=searchForm()
-    if request.method=="POST":
+    snips = Snip.objects.filter(link_code=link_c)
+    form = searchForm()
+    if request.method == "POST":
         try:
-            form=searchForm(request.POST)
+            form = searchForm(request.POST)
             x = request.POST['search']
-            return HttpResponseRedirect("/search/"+x) 
+            return HttpResponseRedirect("/search/" + x)
         except ValueError:
             pass
-    return render(request, "all.html", {'searchform':form,'snips':snips})
+    return render(request, "all.html", {'searchform': form, 'snips': snips})
+
 
 def edit(request, link_c):
-    snips=Snip.objects.order_by('-updated_at')[:8]
-    snip= Snip.objects.get(link_code = link_c)
-    form=snipForm()
-    if request.method=="POST":
+    snips = Snip.objects.order_by('-updated_at')[:8]
+    snip = Snip.objects.get(link_code=link_c)
+    form = snipForm()
+    if request.method == "POST":
         try:
             snip.text = request.POST['text']
             snip.title = request.POST['title']
             snip.link_code = request.POST['link_code']
             snip.lang = request.POST['lang']
             snip.save()
-            return HttpResponseRedirect("/p/"+snip.link_code) 
+            return HttpResponseRedirect("/p/" + snip.link_code)
         except ValueError:
             pass
     else:
-        return render(request, "edit.html", {'form':form, 'snips':snips, 'snip': snip})
+        return render(
+            request, "edit.html", {
+                'form': form, 'snips': snips, 'snip': snip})
     return redirect('all')
 
+
 def delete(request, link_c):
-    snip=Snip.objects.get(link_code = link_c)
+    snip = Snip.objects.get(link_code=link_c)
     snip.delete()
     return redirect('index')
-

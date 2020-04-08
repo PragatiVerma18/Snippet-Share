@@ -6,6 +6,6 @@ admin.autodiscover()
 
 urlpatterns = [
 
-url(r'^$', FileCreateView.as_view(), name='home'),
+    url(r'^$', FileCreateView.as_view(), name='home'),
 
 ]

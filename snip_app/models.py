@@ -11,8 +11,8 @@ class Snip(models.Model):
     link_code = models.CharField(
         max_length=8, unique=True, validators=[alphanumeric])
     langs = [('text', 'None'),
-            ('Markup', 'markup'),
-            ('html', 'html'),
+             ('Markup', 'markup'),
+             ('html', 'html'),
              ('CSS', 'css'),
              ('C-like', 'clike'),
              ('JavaScript', 'javascript, js'),
@@ -89,4 +89,4 @@ class Snip(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.link_code+" : "+self.text[:20]
+        return self.link_code + " : " + self.text[:20]

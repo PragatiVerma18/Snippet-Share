@@ -24,7 +24,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('',include('snip_app.urls')),
-    url('upload/',include('fileupload.urls')),
+    url('', include('snip_app.urls')),
+    url('upload/', include('fileupload.urls')),
     url('accounts/', include('accounts.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

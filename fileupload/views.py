@@ -3,6 +3,7 @@ from django.views.generic import CreateView
 from .models import Upload
 from .response import JSONResponse, response_mimetype
 
+
 class FileCreateView(CreateView):
     model = Upload
     fields = '__all__'
@@ -12,4 +13,3 @@ class FileCreateView(CreateView):
         data = {'status': 'success'}
         response = JSONResponse(data, mimetype=response_mimetype(self.request))
         return response
-        
