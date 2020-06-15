@@ -5,7 +5,7 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/PragatiVerma18/Snippet-Share/blob/master/README.md)&nbsp;
 
 # Snippet-Share
-This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and an unique url.
+This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and a unique url.
 
 > **You can view the demo [here](https://snip-share.herokuapp.com/).**
 
