@@ -32,6 +32,10 @@ pip install -r requirements.txt
 ```
 python manage.py makemigrations
 ```
+- Create Snippets Database Tables using
+```
+python manage.py migrate
+```
 - Create a superuser
 ```
 python manage.py createsuperuser
