@@ -57,12 +57,12 @@ python manage.py runserver
 
 | TITLE                                                                                                          | LEVEL       |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
-| [UI Enhancements]()                                                                                            | `EASY`      |
-| [Project Documentation]()                                                                                      | `VERY EASY` |
-| [Code Themes]()                                                                                                | `MEDIUM`    |
-| [Public and Private Modes for Sharing Snippets]()                                                              | `HARD`      |
-| [Hashing/Encryption for safe sharing]()                                                                        | `ADVANCED`  |
-| [Rest API]()                                                                                                   | `HARD`      |
+| [UI Enhancements](https://github.com/PragatiVerma18/Snippet-Share/issues/6)                                                                                            | `EASY`      |
+| [Project Documentation](https://github.com/PragatiVerma18/Snippet-Share/issues/7)                                                                                      | `EASY` |
+| [Code Themes](https://github.com/PragatiVerma18/Snippet-Share/issues/9)                                                                                                | `MEDIUM`    |
+| [Public and Private Modes for Sharing Snippets](https://github.com/PragatiVerma18/Snippet-Share/issues/10)                                                              | `HARD`      |
+| [Hashing/Encryption for safe sharing](https://github.com/PragatiVerma18/Snippet-Share/issues/11)                                                                        | `ADVANCED`  |
+| [Rest API](https://github.com/PragatiVerma18/Snippet-Share/issues/8)                                                                                                   | `HARD`      |
 
 ## Useful Resources
 
@@ -72,8 +72,8 @@ python manage.py runserver
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 ## Project Admin
-
-[![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18)
+[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)]
+(https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18)
 
 |                                                                                         <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
