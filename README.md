@@ -30,7 +30,7 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 - Fork and Clone the repo using
 ```
 git clone https://github.com/PragatiVerma18/Snippet-Share.git
-cd Snippet-Share\snippet_share_project
+cd Snippet-Share/snippet_share_project
 ```
 - Install dependencies using
 ```
