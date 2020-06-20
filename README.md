@@ -5,7 +5,7 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/PragatiVerma18/Snippet-Share/blob/master/README.md)&nbsp;
 
 # Snippet-Share
-This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and an unique url.
+This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and a unique url.
 
 > **You can view the demo [here](https://snip-share.herokuapp.com/).**
 
@@ -16,6 +16,14 @@ This is a code snippet sharing app that lets you share syntax highlighted code s
 ## Tech Stack
 - Frontend: HTML/CSS/Bulma CSS
 - Backend: Django
+
+## Open Source Contests
+
+- ### STUDENT CODE IN
+
+Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
+
+![scodein](https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg)
 
 ## Quick Start
 
@@ -31,6 +39,10 @@ pip install -r requirements.txt
 - Make migrations using
 ```
 python manage.py makemigrations
+```
+- Migrate Database
+```
+python manage.py migrate
 ```
 - Create a superuser
 ```
@@ -73,14 +85,14 @@ python manage.py runserver
 
 [![GitHub followers](https://img.shields.io/github/followers/pragativerma18.svg?label=Follow%20@pragativerma18&style=social)](https://github.com/PragatiVerma18/) [![Twitter Follow](https://img.shields.io/twitter/follow/pragati_verma18?style=social)](https://twitter.com/pragati_verma18)
 
-## Like This?? Star  ⭐  &nbsp; this Repo. &nbsp;🤩&nbsp;
+## Like This?? Star ⭐ this Repo.
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 
-> Made By Pragati Verma with &nbsp; ❤️ &nbsp;
+> Made By Pragati Verma with ❤️
 
 > Pragati Verma &copy; 2020
 <br><br>
