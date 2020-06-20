@@ -26,3 +26,7 @@ Please provide any relevant information about your setup. This is important in c
 ### Explanation of Problem
 
 Please include any relevant log snippets, screenshots or files here to make the issue clear and more comprehensible.
+
+### Student Code-In 
+- Please add the label `SCI` for issues that are made during Student Code-In and are meant for SCI participants only.
+- Please make a PR to `SCI` branch only, contributions to `master` branch would not be accepted.
