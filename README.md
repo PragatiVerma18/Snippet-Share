@@ -40,7 +40,7 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 
 
 ## Quick Start
-
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/PragatiVerma18/Snippet-Share])
 - Fork and Clone the repo using
 ```
 git clone https://github.com/PragatiVerma18/Snippet-Share.git
