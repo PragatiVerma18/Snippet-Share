@@ -50,7 +50,7 @@
 {% csrf_token %}
 <div class="field" style="margin-bottom: 20px;">
   <p class="control has-icons-left has-icons-right">
-    <input class="input" type="text" placeholder="Username" name="username">
+    <input class="input" type="text" placeholder="Username" name="username" required>
     <span class="icon is-small is-left">
       <i class="fas fa-user"></i>
     </span>
@@ -61,7 +61,7 @@
 </div>
 <div class="field" style="margin-bottom: 20px;">
   <p class="control has-icons-left">
-    <input class="input" type="password" placeholder="Password" name="password">
+    <input class="input" type="password" placeholder="Password" name="password" required>
     <span class="icon is-small is-left">
       <i class="fas fa-lock"></i>
     </span>
@@ -69,7 +69,7 @@
 </div>
 <div class="field" style="margin-bottom: 20px;">
   <p class="control has-icons-left">
-    <input class="input" type="password" placeholder="Confirm Password" name="confirmpassword">
+    <input class="input" type="password" placeholder="Confirm Password" name="confirmpassword" required>
     <span class="icon is-small is-left">
       <i class="fas fa-lock"></i>
     </span>
