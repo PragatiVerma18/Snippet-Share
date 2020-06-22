@@ -14,8 +14,8 @@ This is a code snippet sharing app that lets you share syntax highlighted code s
 ![screely-2](https://user-images.githubusercontent.com/42115530/84486400-fe62be00-acba-11ea-8b5a-ddb7d4fe6681.png)
 
 ## Tech Stack
-- Frontend: HTML/CSS/Bulma CSS
-- Backend: Django
+- **Frontend:** HTML/CSS/Bulma CSS
+- **Backend:** Django
 
 ## Open Source Contests
 
@@ -23,7 +23,21 @@ This is a code snippet sharing app that lets you share syntax highlighted code s
 
 Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
 
+> **NOTE:** All the contributions to be counted under Student Code-In should be made to the `sci` branch. 
+
 ![scodein](https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg)
+
+# Mentors
+
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PragatiVerma18/Snippet-Share/) [![Issues Open](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/issues) [![PRs](https://img.shields.io/github/issues-pr/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/pulls/)
+
+| GitHub Usernames                                      | Domain                     |
+| ----------------------------------------------------- | -------------------------- |
+| [@abhishek2x](https://github.com/abhishek2x)          | Full Stack + Documentation |
+| [@adad20](https://github.com/adad20)                  | Full Stack                 |
+| [@khannakshat7](https://github.com/khannakshat7)      | Full Stack                 |
+| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Full Stack + Documentation |
+
 
 ## Quick Start
 
@@ -90,6 +104,8 @@ python manage.py runserver
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/PragatiVerma18/Snippet-Share)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/PragatiVerma18/Snippet-Share)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/PragatiVerma18/Snippet-Share)
 
 > Made By Pragati Verma with ❤️
 
