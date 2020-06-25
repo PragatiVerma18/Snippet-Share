@@ -5,11 +5,11 @@
         "django", 
         "bulma"
     ],
-    "repository": "https://github.com/eshaan007/Snippet-Share-1/tree/master/snippet_share_project",
+    "repository": "https://github.com/eshaan007/Snippet-Share-1/tree/master/",
     "website": "https://snip-share.herokuapp.com/",   
     "buildpacks": [
       {
-        "url": "https://github.com/eshaan007/Snippet-Share-1/tree/master/snippet_share_project"
+        "url": "https://github.com/eshaan007/Snippet-Share-1/tree/master/"
       },
       {
         "url": "heroku/python"
