@@ -1,0 +1,18 @@
+{
+    "name": "Snippet Share",
+    "description": "This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and a unique url.",
+    "keywords": [
+        "django", 
+        "bulma"
+    ],
+    "repository": "https://github.com/eshaan007/Snippet-Share-1/tree/master/snippet_share_project",
+    "website": "https://snip-share.herokuapp.com/",   
+    "buildpacks": [
+      {
+        "url": "https://github.com/eshaan007/Snippet-Share-1/tree/master/snippet_share_project"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]  
+  }
