@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'fileupload',
     'accounts',
+    'rest_framework',
 ]
 
 CRISPY_TEMPLATE_PACK = 'uni_form'
