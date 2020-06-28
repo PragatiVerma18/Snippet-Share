@@ -21,7 +21,7 @@ class Snip(models.Model):
              ('BASIC', 'basic'),
              ('C', 'c'),
              ('C#', 'csharp, cs, dotnet'),
-             ('CPP', 'cpp'),
+             ('C++', 'cpp'),
              ('CoffeeScript', 'coffeescript, coffee'),
              ('CMake', 'cmake'),
              ('Clojure', 'clojure'),
