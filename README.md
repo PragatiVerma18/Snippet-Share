@@ -67,6 +67,8 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PragatiVerma18/Snippet-Share)
+
 ## Issues
 
 | TITLE                                                                                                          | LEVEL       |
