@@ -49,6 +49,15 @@
       "contributions": [
         "code"
       ]
+    },
+        {
+      "login": "abhishek2x",
+      "name": "Abhishek Srivastava",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53976003?v=4",
+      "profile": "https://portfolio.abhisheksrivastava.me/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
