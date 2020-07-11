@@ -132,6 +132,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/manshi-todi-a017a2178/"><img src="https://avatars0.githubusercontent.com/u/47568904?v=4" width="100px;" alt=""/><br /><sub><b>Manshi Todi</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=todi-2000" title="Code">💻</a></td>
     <td align="center"><a href="https://devdivyansh.herokuapp.com/"><img src="https://avatars0.githubusercontent.com/u/22716123?v=4" width="100px;" alt=""/><br /><sub><b>Divy1998</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=9916103020" title="Code">💻</a></td>
     <td align="center"><a href="https://portfolio.abhisheksrivastava.me/"><img src="https://avatars1.githubusercontent.com/u/53976003?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Srivastava</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=abhishek2x" title="Code">💻</a></td>
+    <td align="center"><a href="https://linktr.ee/akshatkhanna"><img src="https://avatars3.githubusercontent.com/u/32996284?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Khanna</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=khannakshat7" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/adad20"><img src="https://avatars0.githubusercontent.com/u/55142272?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Tomar</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=adad20" title="Code">💻</a></td>
   </tr>
 </table>
 
