@@ -1,6 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://snip-share.herokuapp.com/)&nbsp;
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/PragatiVerma18/Snippet-Share)&nbsp;
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://github.com/PragatiVerma18/Snippet-Share/)&nbsp;
@@ -131,6 +131,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/PragatiVerma18/"><img src="https://avatars2.githubusercontent.com/u/42115530?v=4" width="100px;" alt=""/><br /><sub><b>Pragati Verma</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=PragatiVerma18" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/manshi-todi-a017a2178/"><img src="https://avatars0.githubusercontent.com/u/47568904?v=4" width="100px;" alt=""/><br /><sub><b>Manshi Todi</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=todi-2000" title="Code">💻</a></td>
     <td align="center"><a href="https://devdivyansh.herokuapp.com/"><img src="https://avatars0.githubusercontent.com/u/22716123?v=4" width="100px;" alt=""/><br /><sub><b>Divy1998</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=9916103020" title="Code">💻</a></td>
+    <td align="center"><a href="https://linktr.ee/akshatkhanna"><img src="https://avatars3.githubusercontent.com/u/32996284?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Khanna</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=khannakshat7" title="Code">💻</a></td>
   </tr>
 </table>
 
