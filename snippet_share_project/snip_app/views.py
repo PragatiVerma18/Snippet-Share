@@ -6,7 +6,10 @@ from .EncodeDecodeURL import EncodeDecodeURL
 
 def show_snip(request,link_c):
     snips=Snip.objects.order_by('-updated_at')[:10]
-    snip=Snip.objects.get(link_code=link_c)
+    if Snip.objects.get(link_code=link_c).private==True and Snip.objects.get(link_code=link_c).user==request.user:
+        snip=Snip.objects.get(link_code=link_c)
+    else:    
+        snip=Snip.objects.get(link_code=link_c,private=False)
     searchform=searchForm()
     if request.method=="POST":
         try:
@@ -18,7 +21,10 @@ def show_snip(request,link_c):
     return render(request, "detail.html", {'searchform':searchform,'snip': snip,'snips':snips})
 
 def all(request):
-    snips = Snip.objects.all()
+    if request.user.is_authenticated:
+        snips= Snip.objects.filter(private=False) | Snip.objects.filter(user=request.user,private=True)
+    else:
+        snips = Snip.objects.filter(private=False)
     searchform=searchForm()
     if request.method=="POST":
         try:
@@ -31,12 +37,22 @@ def all(request):
     return render(request, 'all.html', {'searchform':searchform,'snips': snips})
 
 def index(request):
-    snips=Snip.objects.order_by('-updated_at')[:8]
-    form=snipForm()
+    if request.user.is_authenticated:
+        snips=Snip.objects.filter(private=False).order_by('-updated_at')[:8] | Snip.objects.filter(private=True,user=request.user).order_by('-updated_at')[:8]
+        form=snipForm1()
+    else:
+        snips=Snip.objects.filter(private=False).order_by('-updated_at')[:8]
+        form=snipForm()
     if request.method=="POST":
         try:
-            form=snipForm(request.POST)
-            form.save()
+            if request.user.is_authenticated:
+                form=snipForm1(request.POST)
+                p=form.save(commit=False)
+                p.user=request.user
+                p.save()
+            else:
+                form=snipForm(request.POST)
+                form.save()
             return HttpResponseRedirect("/") 
         except ValueError:
             pass
