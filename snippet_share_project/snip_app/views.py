@@ -53,7 +53,6 @@ def index(request):
 
 def search(request, link_c):
     link_c = EncodeDecodeURL(link_c).decode()
-    print(link_c)
     snips= Snip.objects.filter(link_code=link_c)
     form=searchForm()
     if request.method=="POST":
