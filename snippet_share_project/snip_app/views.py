@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, HttpResponseRedirect, HttpResponse
 from .models import Snip
-from .forms import snipForm, searchForm,snipForm1
+from .forms import snipForm, searchForm
+from .EncodeDecodeURL import EncodeDecodeURL
 
 
 def show_snip(request,link_c):
@@ -29,6 +30,7 @@ def all(request):
         try:
             searchform=searchForm(request.POST)
             x = request.POST['search']
+            x = EncodeDecodeURL(x).encode()
             return HttpResponseRedirect("/search/"+x) 
         except ValueError:
             pass
@@ -59,22 +61,21 @@ def index(request):
         try:
             searchform=searchForm(request.POST)
             x = request.POST['search']
+            x = EncodeDecodeURL(x).encode()
             return HttpResponseRedirect("/search/"+x) 
         except ValueError:
             pass
-
     return render(request, "index.html", {'searchform':searchform,'form':form, 'snips':snips})
 
 def search(request, link_c):
-    if request.user.is_authenticated:
-        snips= Snip.objects.filter(private=False) | Snip.objects.filter(user=request.user,private=True)
-    else:
-        snips= Snip.objects.filter(link_code=link_c,private=False)
+    link_c = EncodeDecodeURL(link_c).decode()
+    snips= Snip.objects.filter(link_code=link_c)
     form=searchForm()
     if request.method=="POST":
         try:
             form=searchForm(request.POST)
             x = request.POST['search']
+            x = EncodeDecodeURL(x).encode()
             return HttpResponseRedirect("/search/"+x) 
         except ValueError:
             pass
