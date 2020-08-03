@@ -1,9 +1,11 @@
 from django.db import models
 from django.core.validators import RegexValidator
 from django import forms
+from django.contrib.auth.models import User
 
 
 class Snip(models.Model):
+    user = models.ForeignKey(User,on_delete=models.CASCADE,blank=True, null=True)
     alphanumeric = RegexValidator(
         r'^[0-9a-zA-Z]*$', 'Only alphanumeric characters are allowed.')
     title = models.CharField(max_length=40, default="Untitled")
@@ -21,7 +23,7 @@ class Snip(models.Model):
              ('BASIC', 'basic'),
              ('C', 'c'),
              ('C#', 'csharp, cs, dotnet'),
-             ('C++', 'cpp'),
+             ('Cpp', 'cpp'),
              ('CoffeeScript', 'coffeescript, coffee'),
              ('CMake', 'cmake'),
              ('Clojure', 'clojure'),
@@ -87,6 +89,7 @@ class Snip(models.Model):
     lang = models.CharField(max_length=18, choices=langs, default='text')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    private=models.BooleanField(default=False)
 
     def __str__(self):
         return self.link_code+" : "+self.text[:20]
