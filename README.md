@@ -28,7 +28,19 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 
 > **NOTE:** All the contributions to be counted under Student Code-In should be made to the `sci` branch. 
 
-![scodein](https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg)
+<div >
+<img src="https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg" alt="scodein" height="300" width="300"/>
+  </div>
+  
+- ### NWoC NJACK WINTER OF CODE
+
+NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science Club of IIT Patna) that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.
+
+> **NOTE:** All the contributions to be counted under NWoC should be made to the `nwoc` branch. 
+
+<div >
+<img src="https://njackwinterofcode.github.io/images/nwoc-logo.png" alt="nwoc" height="300" />
+  </div>
 
 # Mentors
 
