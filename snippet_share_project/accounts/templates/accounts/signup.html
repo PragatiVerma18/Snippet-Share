@@ -50,7 +50,8 @@
 {% csrf_token %}
 <div class="field" style="margin-bottom: 20px;">
   <p class="control has-icons-left has-icons-right">
-    <input class="input" type="text" placeholder="Username" name="username" required>
+        <input type="text" class ="input" name="username" pattern ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 5 or more characters and no invalid characters like _,.!-" >
+
     <span class="icon is-small is-left">
       <i class="fas fa-user"></i>
     </span>
