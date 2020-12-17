@@ -65,6 +65,10 @@ cd Snippet-Share/snippet_share_project
 ```
 pip install -r requirements.txt
 ```
+- Copy example.env to .env and set the values accordingly
+```
+cp example.env .env
+```
 - Make migrations using
 ```
 python manage.py makemigrations
