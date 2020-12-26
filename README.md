@@ -1,4 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://snip-share.herokuapp.com/)&nbsp;
+[![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -23,6 +24,7 @@ This is a code snippet sharing app that lets you share syntax highlighted code s
 ## Open Source Contests
 
 - ### STUDENT CODE IN
+[![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
 
@@ -33,6 +35,8 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
   </div>
   
 - ### NWoC NJACK WINTER OF CODE
+
+[![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science Club of IIT Patna) that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.
 
@@ -101,7 +105,7 @@ python manage.py runserver
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 ## Project Admin
-[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18)
+[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18) [![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 |                                                                                         <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
