@@ -30,9 +30,9 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 
 > **NOTE:** All the contributions to be counted under Student Code-In should be made to the `sci` branch. 
 
-<div >
+<div>
 <img src="https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg" alt="scodein" height="300" width="300"/>
-  </div>
+ </div>
   
 - ### NWoC NJACK WINTER OF CODE
 
@@ -137,24 +137,7 @@ python manage.py runserver
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<a href="https://github.com/PragatiVerma18/Snippet-Share/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PragatiVerma18/Snippet-Share" />
+</a>
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/PragatiVerma18/"><img src="https://avatars2.githubusercontent.com/u/42115530?v=4" width="100px;" alt=""/><br /><sub><b>Pragati Verma</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=PragatiVerma18" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/manshi-todi-a017a2178/"><img src="https://avatars0.githubusercontent.com/u/47568904?v=4" width="100px;" alt=""/><br /><sub><b>Manshi Todi</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=todi-2000" title="Code">💻</a></td>
-    <td align="center"><a href="https://devdivyansh.herokuapp.com/"><img src="https://avatars0.githubusercontent.com/u/22716123?v=4" width="100px;" alt=""/><br /><sub><b>Divy1998</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=9916103020" title="Code">💻</a></td>
-    <td align="center"><a href="https://portfolio.abhisheksrivastava.me/"><img src="https://avatars1.githubusercontent.com/u/53976003?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Srivastava</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=abhishek2x" title="Code">💻</a></td>
-    <td align="center"><a href="https://linktr.ee/akshatkhanna"><img src="https://avatars3.githubusercontent.com/u/32996284?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Khanna</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=khannakshat7" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/adad20"><img src="https://avatars0.githubusercontent.com/u/55142272?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Tomar</b></sub></a><br /><a href="https://github.com/PragatiVerma18/Snippet-Share/commits?author=adad20" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
