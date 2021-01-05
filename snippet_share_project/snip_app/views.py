@@ -31,7 +31,7 @@ def all(request):
 
 def index(request):
     snips=Snip.objects.order_by('-updated_at')[:8]
-    form=snipForm()
+    form=snipForm(initial={'author':request.user})
     if request.method=="POST":
         try:
             form=snipForm(request.POST)
@@ -61,3 +61,9 @@ def search(request, link_c):
         except ValueError:
             pass
     return render(request, "all.html", {'searchform':form,'snips':snips})
+
+def delete_snippet(request,snippet_id):
+    del_obj=Snip.objects.get(link_code=snippet_id)
+    del_obj.delete()
+    return HttpResponseRedirect('/all/')
+

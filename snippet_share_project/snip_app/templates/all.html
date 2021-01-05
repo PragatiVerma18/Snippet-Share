@@ -30,6 +30,11 @@
       <pre style="  overflow: hidden;
       max-height: 25ch;"><code class="language-{{i.lang}} line-numbers">{{i.text}}</code></pre>
       <time datetime="2016-1-1">{{i.updated_at}}</time>
+      <div style="text-align: right;">
+      {% if user.is_authenticated and user == i.author %}
+      <a href="/delete_snippet/{{i.link_code}}" class="button is-danger is-rounded">Delete</a>
+      {% endif %}
+      </div>
     </div>
   </div>
   <!-- <footer class="card-footer">
