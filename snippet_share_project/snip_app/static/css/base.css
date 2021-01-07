@@ -1,0 +1,10 @@
+.searchform input{
+  margin: 10px !important;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.asteriskField {
+  display: none;
+}

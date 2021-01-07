@@ -12,6 +12,8 @@
     type="image/x-icon">
   <link href="{% static 'css/prism.css' %}" rel="stylesheet" />
   <link rel="stylesheet" href="{% static 'css/bulma.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
@@ -95,19 +97,7 @@
               <a>Private</a>
             </p> -->
             <div class="panel-block">
-<style>
-    .searchform input{
-  margin: 10px !important;
-  padding: 10px 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  }
 
-  .asteriskField {
-    display: none;
-}
-
-</style>
               <form method="POST" class="uniForm searchform is-left" style="font-weight: 700 !important;">
                 {% csrf_token %}
                 {{ searchform|crispy }}
