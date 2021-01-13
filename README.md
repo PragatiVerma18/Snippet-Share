@@ -17,11 +17,11 @@ This is a code snippet sharing app that lets you share syntax highlighted code s
 
 ![screely-2](https://user-images.githubusercontent.com/42115530/84486400-fe62be00-acba-11ea-8b5a-ddb7d4fe6681.png)
 
-## Tech Stack
+## Tech Stack 👨‍💻
 - **Frontend:** HTML/CSS/Bulma CSS
 - **Backend:** Django
 
-## Open Source Contests
+## Open Source Contests 👇
 
 - ### STUDENT CODE IN
 [![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -46,6 +46,9 @@ NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science
 <img src="https://njackwinterofcode.github.io/images/nwoc-logo.png" alt="nwoc" height="300" />
   </div>
 
+- ### Script Winter of Code(SWOC)
+Script Winter of Code is an open-source program envisioned by the Script Foundation. It aims to bring students into the world of open source development and see the power of unified problem-solving in real time.They will learn the skills essential in the world of programming, all the while developing a deep appreciation for the world of open-source.
+<img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" height="500">
 # Mentors
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PragatiVerma18/Snippet-Share/) [![Issues Open](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/issues) [![PRs](https://img.shields.io/github/issues-pr/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/pulls/)
@@ -58,7 +61,7 @@ NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science
 | [@PragatiVerma18](https://github.com/PragatiVerma18)  | Full Stack + Documentation |
 
 
-## Quick Start
+## Quick Start 👇
 
 - Fork and Clone the repo using
 ```
@@ -86,7 +89,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Issues
+## Issues 🔎
 
 | TITLE                                                                                                          | LEVEL       |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -97,14 +100,14 @@ python manage.py runserver
 | [Hashing/Encryption for safe sharing](https://github.com/PragatiVerma18/Snippet-Share/issues/11)                                                                        | `ADVANCED`  |
 | [Rest API](https://github.com/PragatiVerma18/Snippet-Share/issues/8)                                                                                                   | `HARD`      |
 
-## Useful Resources
+## Useful Resources 📚
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [Bulma Docs](https://bulma.io/documentation/overview/start/)
 - [Django Rest Framework Docs](https://www.django-rest-framework.org/)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
-## Project Admin
+## Project Admin 👩‍💻
 [![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18) [![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 |                                                                                         <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                         |
