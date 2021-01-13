@@ -31,7 +31,7 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 > **NOTE:** All the contributions to be counted under Student Code-In should be made to the `sci` branch. 
 
 <div >
-<img src="https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg" alt="scodein" height="300" width="300"/>
+<img src="https://user-images.githubusercontent.com/42115530/85196465-fc6eaf80-b2f7-11ea-95fb-e235179101e0.jpg" alt="scodein" height="300" width="44%"/>
   </div>
   
 - ### NWoC NJACK WINTER OF CODE
@@ -43,12 +43,12 @@ NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science
 > **NOTE:** All the contributions to be counted under NWoC should be made to the `nwoc` branch. 
 
 <div >
-<img src="https://njackwinterofcode.github.io/images/nwoc-logo.png" alt="nwoc" height="300" />
+<img src="https://njackwinterofcode.github.io/images/nwoc-logo.png" alt="nwoc" width="64%" />
   </div>
 
 - ### Script Winter of Code(SWOC)
 Script Winter of Code is an open-source program envisioned by the Script Foundation. It aims to bring students into the world of open source development and see the power of unified problem-solving in real time.They will learn the skills essential in the world of programming, all the while developing a deep appreciation for the world of open-source.
-<img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" height="500">
+<img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" height="300">
 # Mentors
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PragatiVerma18/Snippet-Share/) [![Issues Open](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/issues) [![PRs](https://img.shields.io/github/issues-pr/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18/Snippet-Share/pulls/)
