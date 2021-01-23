@@ -84,7 +84,14 @@
           </div>
         </div>
 
-        <div class="column is-one-quarter sidebar" style="margin-left: 40px ;">
+        <div class="column is-one-quarter sidebar">
+          <style> .sidebar{margin-left:40px; margin-right:1rem;}
+              @media (max-width: 400px) {
+                  .sidebar {
+                      margin-left:1rem;
+                  }
+}
+</style>
           <article class="panel is-info">
             <p class="panel-heading">
               All Snippets:
