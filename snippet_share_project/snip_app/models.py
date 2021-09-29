@@ -4,10 +4,10 @@ from django import forms
 from django.contrib.auth.models import User
 
 class Snip(models.Model):
-    author=models.OneToOneField(User,on_delete=models.CASCADE,null=True)
     alphanumeric = RegexValidator(
         r'^[0-9a-zA-Z]*$', 'Only alphanumeric characters are allowed.')
     title = models.CharField(max_length=40, default="Untitled")
+    # author=models.OneToOneField(User,on_delete=models.CASCADE,null=True)
     text = models.TextField()
     link_code = models.CharField(
         max_length=8, unique=True, validators=[alphanumeric])
