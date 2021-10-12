@@ -3,10 +3,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/PragatiVerma18/Snippet-Share)&nbsp;
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://github.com/PragatiVerma18/Snippet-Share/)&nbsp;
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/iihsan/Snippet-Share)&nbsp;
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://github.com/iihsan/Snippet-Share/)&nbsp;
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](snip-share.herokuapp.com)&nbsp;
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/PragatiVerma18/Snippet-Share/blob/master/README.md)&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/iihsan/Snippet-Share/blob/master/README.md)&nbsp;
 
 # Snippet-Share
 This is a code snippet sharing app that lets you share syntax highlighted code snippets with easy copy paste options and a secure secret code and a unique url.
@@ -54,7 +54,7 @@ Script Winter of Code is an open-source program envisioned by the Script Foundat
 
 - Fork and Clone the repo using
 ```
-git clone https://github.com/PragatiVerma18/Snippet-Share.git
+git clone https://github.com/iihsan/Snippet-Share.git
 cd Snippet-Share/snippet_share_project
 ```
 - Install dependencies using
@@ -82,12 +82,12 @@ python manage.py runserver
 
 | TITLE                                                                                                          | LEVEL       |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
-| [UI Enhancements](https://github.com/PragatiVerma18/Snippet-Share/issues/6)                                                                                            | `EASY`      |
-| [Project Documentation](https://github.com/PragatiVerma18/Snippet-Share/issues/7)                                                                                      | `EASY` |
-| [Code Themes](https://github.com/PragatiVerma18/Snippet-Share/issues/9)                                                                                                | `MEDIUM`    |
-| [Public and Private Modes for Sharing Snippets](https://github.com/PragatiVerma18/Snippet-Share/issues/10)                                                              | `HARD`      |
-| [Hashing/Encryption for safe sharing](https://github.com/PragatiVerma18/Snippet-Share/issues/11)                                                                        | `ADVANCED`  |
-| [Rest API](https://github.com/PragatiVerma18/Snippet-Share/issues/8)                                                                                                   | `HARD`      |
+| [UI Enhancements](https://github.com/iihsan/Snippet-Share/issues/6)                                                                                            | `EASY`      |
+| [Project Documentation](https://github.com/iihsan/Snippet-Share/issues/7)                                                                                      | `EASY` |
+| [Code Themes](https://github.com/iihsan/Snippet-Share/issues/9)                                                                                                | `MEDIUM`    |
+| [Public and Private Modes for Sharing Snippets](https://github.com/iihsan/Snippet-Share/issues/10)                                                              | `HARD`      |
+| [Hashing/Encryption for safe sharing](https://github.com/iihsan/Snippet-Share/issues/11)                                                                        | `ADVANCED`  |
+| [Rest API](https://github.com/iihsan/Snippet-Share/issues/8)                                                                                                   | `HARD`      |
 
 ## Useful Resources 📚
 
@@ -97,11 +97,11 @@ python manage.py runserver
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 ## Project Admin 👩‍💻
-[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snippet-Share)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18) [![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Issues](https://img.shields.io/github/issues/iihsan/Snippet-Share)](https://github.com/iihsan) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/iihsan) [![Gitter](https://badges.gitter.im/Snippet-Share/community.svg)](https://gitter.im/Snippet-Share/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-|                                                                                         <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                         |
+|                                                                                         <a href="https://github.com/iihsan"><img src="https://avatars.githubusercontent.com/u/65401953?v=4" width=150px height=150px /></a>                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        **[Pragati Verma](https://www.linkedin.com/in/iihsan/)**                                                                                                                                        |
+|                                                                                                                                        (https://www.linkedin.com/in/iihsan/)**                                                                                                                                        |
 |
 
 > **_Need help?_** 
