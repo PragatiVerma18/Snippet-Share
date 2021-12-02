@@ -7,8 +7,8 @@ class snipForm(forms.ModelForm):
 
     class Meta:
         model=Snip
-        widgets = {'author': forms.HiddenInput()}
-        fields=('author','text','title','link_code','lang')
+        # widgets = {'author': forms.HiddenInput()}
+        fields=('text','title','link_code','lang')
         labels={'title':'Snippet Title','text':'New Snippet','link_code':'Secret Code','lang': 'Syntax Highlighting'}
 
 class searchForm(forms.Form):
